@@ -8,7 +8,7 @@ class SearchBar extends React.Component {
     super(props);
 
     // initialize the state of term as a empty string
-    this.state = { term: 'Search Here'};
+    this.state = { term: ''};
   }
 
   render() {
